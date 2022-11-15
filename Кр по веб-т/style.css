@@ -1,0 +1,173 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url(ofont.ru_Montserrat.ttf); 
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 160px;
+}
+.text{
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+  margin-top: 150px;
+}
+.header_text>p, h1 {
+  color: #28599d;
+}
+#h1_span {
+  color: white;
+}
+.header_text>button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  width: 190px;
+  height: 50px;
+  border: 2px solid #153a6d;
+  border-radius: 30px;
+  margin-top: 70px;
+}
+.headphones_text>button{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  width: 190px;
+  height: 50px;
+  border: 2px solid #153a6d;
+  border-radius: 30px;
+}
+.main_music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: url('images/fon_.png') no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.div_music {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.main_headphones{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.headphones_text{
+  max-width: 700px;
+  margin-left: 70px;
+}
+.div_music>img {
+  width: 30%;
+}
+.main_phone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin: 0 auto;
+  width: 90%;
+
+}
+.main_graphic{
+  display: flex;
+  align-self: center;
+  justify-content: right;
+  align-items: center;
+  margin-top: 100px;
+}
+.main_t{
+  background-color: #040e1c;
+  height: 400px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con{
+  text-align:center;
+
+}
+.textA{
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+}
+.ava{
+  display: inline-block;
+  text-align: center;
+
+}
+.main_phone2>button{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  width: 190px;
+  height: 50px;
+  border: 2px solid #153a6d;
+  border-radius: 30px;
+}
+
+.main_phone2{
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+  margin-top: 150px;
+}
+.phone2{
+  margin-top: 100px;
+}
+.text_phone2{
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+}
+.text1, .text2{
+  width: 25%;
+}
+h2{
+  color: white;
+}
+p{
+  color: #627389;
+}
+.content{
+  display: block;
+  margin:  auto;
+  text-align:center;
+}
+footer{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+body, html {
+  background:linear-gradient(#0a2345, #020103);
+  height: 5600px;
+}
+body{
+  font-family: 'Montserrat';
+  font-weight: 300;
+
+}
+ 
