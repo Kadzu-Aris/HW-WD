@@ -51,3 +51,11 @@ footer{
 	background-color: black;
 	color: white;
 }
+.light{
+    color: black;
+    background-color: white;
+}
+.dark{
+    color: white;
+    background-color: #515151;
+}
